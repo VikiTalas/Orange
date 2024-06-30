@@ -1,0 +1,10 @@
+def convert_grey_to_orange(color):
+    if color == "grey":
+        return "orange"
+    else:
+        return color
+
+# Test the function
+original_color = "grey"
+new_color = convert_grey_to_orange(original_color)
+print(f"The color {original_color} is converted to {new_color}")
